@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/MathLib.Interpolation/bin
+/MathLib.Interpolation/obj
+/MathLib.Interpolation.Tests/bin/Debug/net6.0
+/MathLib.Interpolation.Tests/obj
+/MathLib.Sample/bin/Debug/net6.0
+/MathLib.Sample/obj
