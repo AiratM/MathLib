@@ -9,3 +9,7 @@
 /MathLib.Interpolation.Tests/obj
 /MathLib.Sample/bin/Debug/net6.0
 /MathLib.Sample/obj
+/MathLib.Common/bin/Debug/net6.0
+/MathLib.Common/obj
+/MathLib.Common.Tests/bin/Debug/net6.0
+/MathLib.Common.Tests/obj

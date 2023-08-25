@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathLib.Interpolation", "Ma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathLib.Interpolation.Tests", "MathLib.Interpolation.Tests\MathLib.Interpolation.Tests.csproj", "{449AEF2E-81AC-4978-861E-804EE1CE59F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLib.Common", "MathLib.Common\MathLib.Common.csproj", "{A85E2261-6FF5-4AE5-9331-DF7430C6F05D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLib.Common.Tests", "MathLib.Common.Tests\MathLib.Common.Tests.csproj", "{3D0CF50A-6477-4C3D-9843-31C4F3C50307}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{449AEF2E-81AC-4978-861E-804EE1CE59F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{449AEF2E-81AC-4978-861E-804EE1CE59F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{449AEF2E-81AC-4978-861E-804EE1CE59F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A85E2261-6FF5-4AE5-9331-DF7430C6F05D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85E2261-6FF5-4AE5-9331-DF7430C6F05D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85E2261-6FF5-4AE5-9331-DF7430C6F05D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85E2261-6FF5-4AE5-9331-DF7430C6F05D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0CF50A-6477-4C3D-9843-31C4F3C50307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0CF50A-6477-4C3D-9843-31C4F3C50307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0CF50A-6477-4C3D-9843-31C4F3C50307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0CF50A-6477-4C3D-9843-31C4F3C50307}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
