@@ -12,9 +12,7 @@ namespace MathLib.Interpolation.Implementations
 
         public double CalcLinearInterpolationWithCheck(double f1, double x1, double f2, double x2, double xCalc)
         {
-
+            throw new NotImplementedException();
         }
-
-        private bool IsInterval
     }
 }

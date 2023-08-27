@@ -17,8 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Math.Interpolation\MathLib.Interpolation.csproj" />
     <ProjectReference Include="..\MathLib.Common\MathLib.Common.csproj" />
+    <ProjectReference Include="..\MathLib.Interpolation\MathLib.Interpolation.csproj" />
   </ItemGroup>
 
 </Project>

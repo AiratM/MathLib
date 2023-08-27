@@ -1,3 +1,4 @@
+using MathLib.Interpolation.Implementations;
 using MathLib.Interpolation.Interfaces;
 namespace MathLib.Interpolation.Tests
 {

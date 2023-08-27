@@ -1,6 +1,4 @@
-﻿using System.Reflection.Metadata.Ecma335;
-
-namespace MathLib.Common.Implementations
+﻿namespace MathLib.Common.Implementations
 {
     public static class IntervalCheck
     {
