@@ -31,6 +31,13 @@ namespace MathLib.Interpolation.Tests
             Assert.That(interpolated, Is.EqualTo(shouldBe));
         }
 
+        [TestCase(1.0, 3.0, 7.21, 5.0)]
+        [TestCase(5.0, 12.0, 4.999999, 59.0)]
+        public void CalcInterpolationTest_ThrowException(double x1, double x2, double xCalc, double shouldBe)
+        {
+            Assert.Throws<ArgumentException>(()=>_linearInterpolation.CalcLinearInterpolationWithCheck(TestFunc(x1), x1, TestFunc(x2), x2, xCalc));
+        }
+
         private double TestFunc(double x) => x * x;
     }
 }
